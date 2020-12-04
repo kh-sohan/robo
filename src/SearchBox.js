@@ -1,5 +1,3 @@
-import React from 'react';
-
 function SearchBox(props) {
     const {search} = props;
     return (
