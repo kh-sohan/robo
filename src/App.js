@@ -25,7 +25,7 @@ class App extends Component {
         const cards = this.state.robots.filter((robot) => robot.name.toLowerCase().includes(this.state.searchField.toLowerCase()))
         return (
             <div className = 'tc'>
-                <h2>Robofriends</h2>
+                <h1>Robofriends</h1>
                 <SearchBox search = {this.onSearchChange}/>
                 <Cardlist robots = {cards}/>
             </div>
